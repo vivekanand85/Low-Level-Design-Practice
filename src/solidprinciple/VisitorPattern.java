@@ -19,7 +19,6 @@ interface MenuVisitor {
  }
 }
 
-//New operation = new Visitor, ZERO changes to Pizza/Burger!
  class TaxCalculatorVisitor implements MenuVisitor {
  public void visit(Pizza pizza) {
      System.out.println("Calculating tax for pizza");
